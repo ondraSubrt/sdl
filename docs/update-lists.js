@@ -5,8 +5,8 @@ const path = require("path");
 const BASE_DIR = __dirname;
 const EVENTS_DIR = path.join(BASE_DIR, "events");
 const ROOT_DIR = path.join(BASE_DIR, "root");
-const EVENTS_OUT = path.join(BASE_DIR, "events.md");
-const ROOT_OUT = path.join(BASE_DIR, "root_properties.md");
+const EVENTS_OUT = path.join(BASE_DIR, "_events.md");
+const ROOT_OUT = path.join(BASE_DIR, "_root_properties.md");
 
 function extractName(filePath) {
   return path.basename(filePath, ".md");
